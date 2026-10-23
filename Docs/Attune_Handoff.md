@@ -14,7 +14,8 @@ M5 with Hum (A38) and Breath (A39): their choices stand until testers report. Th
 - `bash Tools/testerbuild.sh` makes `Builds/Attune-v<version>-windows.zip`.
   `Tools/Tester/How To Run.txt` covers Breath, Hum and the microphone.
 - Commits are authored with Jon's GitHub noreply email (this repository's `git config`, A40).
-  Never push the local `history/*` branches: they hold the old history with his details.
+  Never push the local `history/*` branches to `origin`: they hold the old history with his
+  details. Their remote is `backup` (`ionAurum/Attune-history`, private).
 
 ## Read, in order
 
