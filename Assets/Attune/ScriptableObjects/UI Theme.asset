@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1919a7e57a3b8ef4588b98afc5596785, type: 3}
+  m_Name: UI Theme
+  m_EditorClassIdentifier: 
+  _background: {r: 0.07058824, g: 0.078431375, b: 0.09411765, a: 1}
+  _panel: {r: 0.10980392, g: 0.1254902, b: 0.15294118, a: 1}
+  _raised: {r: 0.15686275, g: 0.18039216, b: 0.21960784, a: 1}
+  _line: {r: 0.23529412, g: 0.27058825, b: 0.32941177, a: 1}
+  _text: {r: 0.93333334, g: 0.93333334, b: 0.93333334, a: 1}
+  _muted: {r: 0.5803922, g: 0.6117647, b: 0.65882355, a: 1}
+  _accent: {r: 0.29803923, g: 0.6509804, b: 0.9098039, a: 1}
+  _accentDim: {r: 0.17254902, g: 0.36078432, b: 0.5019608, a: 1}
+  _onAccent: {r: 0.03137255, g: 0.07058824, b: 0.101960786, a: 1}
+  _danger: {r: 0.5568628, g: 0.16470589, b: 0.13725491, a: 1}
+  _display:
+    _asset: {fileID: 0}
+    _source: {fileID: 0}
+    _kerning: 1
+  _body:
+    _asset: {fileID: 0}
+    _source: {fileID: 0}
+    _kerning: 1
+  _bodyBold:
+    _asset: {fileID: 0}
+    _source: {fileID: 0}
+    _kerning: 1
+  _upperCaseTitles: 1
+  _cornerStyle: 1
+  _corners: 15
+  _panelCorner: 16
+  _buttonCorner: 10
+  _smallCorner: 4
+  _frameWidth: 2
+  _hoverScale: 1
+  _pressSquash: 0
+  _submitKick: 0
+  _stiffness: 300
+  _damping: 14
+  _titleSquash: 0
+  _hoverSound: {fileID: 0}
+  _pressSound: {fileID: 0}

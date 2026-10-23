@@ -1,0 +1,79 @@
+# Unity-generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Generated IDE and solution files (root only, so nothing under Assets/ loses its .meta partner)
+/.vs/
+/.vscode/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+*.suo
+*.user
+*.userprefs
+
+# Crash reports
+/sysinfo.txt
+
+# Burst debug information
+*_BurstDebugInformation_DoNotShip/
+
+# Unity Version Control / Plastic
+/ignore.conf
+.plastic/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Attune: what must never reach a public MIT repository (ruling 7, A7, A17) ----
+
+# Assets: only the folders Attune owns or has listed in Docs/licences.md. A store pack or a
+# plugin dropped into Assets/ stays out of git until a line here lets it in, with its licence
+# listed first.
+/Assets/*
+!/Assets/Attune/
+!/Assets/Attune.meta
+!/Assets/Scenes/
+!/Assets/Scenes.meta
+!/Assets/Settings/
+!/Assets/Settings.meta
+!/Assets/TextMesh Pro/
+!/Assets/TextMesh Pro.meta
+!/Assets/InputSystem_Actions.inputactions
+!/Assets/InputSystem_Actions.inputactions.meta
+
+# Store packs, wherever they land.
+[Ss]ynty/
+[Ss]ynty.meta
+[Pp]olygon*/
+[Aa]sset[Ss]tore[Tt]ools/
+
+# TextMesh Pro's EmojiOne sprite sheet: its licence is unclear (Docs/licences.md).
+/Assets/TextMesh Pro/Sprites/
+/Assets/TextMesh Pro/Sprites.meta
+/Assets/TextMesh Pro/Resources/Sprite Assets/
+/Assets/TextMesh Pro/Resources/Sprite Assets.meta
+
+# The user's machine: builds, logs, crash dumps, recordings of a voice or breath, testers'
+# feedback, and anything that holds a secret.
+/Tools/Recordings/
+*.log
+*.dmp
+/[Ff]eedback/
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+*.key
+*.reg

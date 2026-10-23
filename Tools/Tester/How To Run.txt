@@ -1,0 +1,93 @@
+ATTUNE: HOW TO RUN IT
+Version {VERSION}, a first build for testers.
+
+Attune is a set of small tech demos of game mechanics designed from the start for
+players with physical disabilities. Every demo reads one input layer, tuned to your own
+range: a single switch, a keyboard used in big zones, a mouse or trackpad, a gamepad,
+your breath or a hum at the microphone.
+It is for play and access. It makes no medical or therapeutic claim.
+
+
+STARTING IT
+
+1. Unzip the folder anywhere, for example onto the desktop.
+2. Open the folder and run Attune.exe.
+3. Windows may say "Windows protected your PC", because this test build isn't signed.
+   Choose "More info", then "Run anyway".
+
+It runs on Windows only, and it sends nothing over the internet. It doesn't use a camera
+in this build. It listens to the microphone only while you play with Breath or Hum, which
+work the menus too; "Microphone on" shows at the top of the screen while it listens. What it hears is measured as it arrives and never recorded or saved.
+
+If Breath or Hum hears nothing, Windows may be blocking desktop apps from the microphone:
+Settings > Privacy & security > Microphone, then turn on "Let desktop apps access your
+microphone".
+
+
+FIRST STEPS
+
+- "Who's playing" opens first. Choose New profile, then the way you'll play:
+  - Switch: one key or one mouse button, or a switch interface that shows up as one.
+    Press it when asked, and it becomes your switch. The menus are then scanned: a ring
+    moves from one choice to the next, a tap picks the ringed choice, and a long hold
+    goes back.
+  - Keyboard zones: any key presses. The left and right halves of the keyboard steer,
+    and its four corners are four gestures, so a fist, an elbow or a mouth stick on a
+    big area plays.
+  - Pointer: a mouse or trackpad.
+  - Gamepad.
+  - Breath: breathe out at the microphone. How hard is how much, and a puff is a press.
+  - Hum: hum at the microphone. Higher is more, and any hum is a press.
+  With Breath or Hum the menus are scanned too: a puff or a hum picks the ringed choice,
+  and a long one goes back. A mouse still works them, and F2 changes the way of playing.
+- Calibration follows. It is short, and you can skip it. For Breath and Hum it first
+  listens to the quiet room, then to a comfortable breath, or to your lowest and highest
+  comfortable notes.
+- Settings has the timing: how long a hold is, how long resting the pointer takes to
+  pick something, and how fast scanning moves. Change anything that doesn't suit you.
+  "Noisy room" there makes Breath ignore quieter sounds.
+
+
+THE DEMOS IN THIS BUILD
+
+- Compass Sweep: a needle sweeps round the compass. Press to sail the boat one step the
+  way it points, and reach the flags. The needle waits if you don't press, so missing it
+  costs nothing.
+- Keyboard Garden: four beds. Each zone (or each scanned bed, with a switch) plants a
+  seedling, and holding down grows it.
+- Dwell Builder: build on a grid with no clicks at all. Rest the pointer on a block to
+  pick it, then on a square to place it. The edge of the screen is a rest zone, where
+  nothing is ever picked. With a switch, the rows are scanned instead.
+- Kite Breath: breathe out to lift the kite, and it falls gently when you stop. Touch
+  the ribbons as they drift past; a ribbon you miss comes round again. Holding a switch
+  or a key lifts it too.
+- Hum Flyer: hum higher to climb and lower to dive, and fly through the rings as they
+  drift past. When you stop humming it glides down. Holding a key climbs too.
+
+The other demos are not built yet. Their pages show what Attune reads from you.
+
+
+KEYS
+
+- Escape opens the menu in a demo. With the Switch, a long hold opens it, and with Breath
+  or Hum a long breath or hum (5 seconds in the Kite Breath and the Hum Flyer).
+- F2 changes to the next way of playing in the middle of a demo, with no restart.
+
+
+TELLING US HOW IT WENT
+
+The first time you open the menu in a demo, it asks "How did that feel?": Easy, Tiring,
+Frustrating, Fun, or Skip. Each answer is saved as one line in a file on this computer:
+
+    %USERPROFILE%\AppData\LocalLow\Jon Goldman\Attune\Feedback\
+
+The Feedback page on the first screen shows where the file is and opens the folder.
+Nothing is uploaded: please send the file back to the person who gave you this build,
+with anything else you noticed.
+
+Thank you for trying it.
+
+
+LICENCES
+
+Attune is MIT licensed. Licences.txt lists the licences of everything in this folder.
